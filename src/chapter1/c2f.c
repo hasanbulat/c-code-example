@@ -14,7 +14,7 @@ void c2f()
 
 	while (cels <= upper){
 		fahr = ((9.0/5.0)*cels) + 32;
-		printf("%3.0f\t\%6.1f\n", cels, fahr);
+		printf("%3.0f\t%6.1f\n", cels, fahr);
 		cels = cels + step;
 	}
 }
